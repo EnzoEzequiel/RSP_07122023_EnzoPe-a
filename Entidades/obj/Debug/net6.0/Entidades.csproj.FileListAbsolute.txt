@@ -22,3 +22,15 @@ C:\Users\enzoe\Desktop\RSPL\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entida
 C:\Users\enzoe\Desktop\RSPL\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\refint\Entidades.dll
 C:\Users\enzoe\Desktop\RSPL\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.pdb
 C:\Users\enzoe\Desktop\RSPL\SP_07122023_ALUMNO\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Users\enzoe\Desktop\RSP_07122023\RSP_07122023_EnzoPe-a\Entidades\obj\Debug\net6.0\ref\Entidades.dll

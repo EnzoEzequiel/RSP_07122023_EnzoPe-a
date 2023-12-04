@@ -50,10 +50,12 @@ namespace Entidades.Modelos
 
         }
 
-
-
         public override string ToString() => this.MostrarDatos();
 
+        /// <summary>
+        /// calcula el costo 
+        /// </summary>
+        /// <param name="cocinero"></param>
         public void FinalizarPreparacion(string cocinero)
         {
             //Alumno:
@@ -68,7 +70,7 @@ namespace Entidades.Modelos
 
             if (this.estado == false)
             {
-                int indice = this.random.Next(1, 2);
+                int indice = this.random.Next(1, 9);
 
                 try
                 {

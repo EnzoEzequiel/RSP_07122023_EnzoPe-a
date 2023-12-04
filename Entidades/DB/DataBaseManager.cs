@@ -17,7 +17,12 @@ namespace Entidades.DataBase
 
             DataBaseManager.stringConnection = "Server=DESKTOP-FBL3OPJ\\SQLEXPRESS;Database=20230622SP;Trusted_Connection=True;";
         }
-
+        /// <summary>
+        /// toma el tipode comida pasado por parametro para traer una url conteniendo la imagen
+        /// </summary>
+        /// <param name="tipoComida"></param>
+        /// <returns></returns>
+        /// <exception cref="DataBaseManagerException"></exception>
         public static string GetImagenComida(string tipoComida)
         {
             // Implementar la lógica para obtener la URL de la imagen
@@ -51,8 +56,14 @@ namespace Entidades.DataBase
                 throw new DataBaseManagerException("Errror al leer la base de dato\n", ex);
             }
         }
-       
-        public static void GuardarTicket<T>(string nombreCliente, T comida) where T : IComestible, new()
+        /// <summary>
+        /// toma el nombre y el parametro ticket dentro de comida para guardarlo en base de datos
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="nombreCliente"></param>
+        /// <param name="comida"></param>
+        /// <exception cref="DataBaseManagerException"></exception>
+        public static void GuardarTicket<T>(string nombre, T comida) where T : IComestible, new()
         {
             try
             {
@@ -69,7 +80,7 @@ namespace Entidades.DataBase
                         command.CommandText = "INSERT INTO tickets (empleado,ticket) VALUES (@empleado, @ticket)";
 
                         // Agregar parámetros
-                        command.Parameters.AddWithValue("empleado", nombreCliente);
+                        command.Parameters.AddWithValue("empleado", nombre);
                         command.Parameters.AddWithValue("ticket", comida.Ticket); //nombre de la clase como tipo de comida
 
                         // Ejecutar la consulta SQL
