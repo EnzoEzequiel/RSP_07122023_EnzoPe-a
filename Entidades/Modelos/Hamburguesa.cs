@@ -58,16 +58,12 @@ namespace Entidades.Modelos
         /// <param name="cocinero"></param>
         public void FinalizarPreparacion(string cocinero)
         {
-            //Alumno:
-
             this.costo = this.ingredientes.CalcularCostoIngrediente(Hamburguesa.costoBase);
             this.estado = true;
         }
 
         public void IniciarPreparacion()
         {
-            //Alumno:
-
             if (this.estado == false)
             {
                 int indice = this.random.Next(1, 9);

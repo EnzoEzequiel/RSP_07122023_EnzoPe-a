@@ -87,8 +87,7 @@ namespace Entidades.Modelos
         private void EsperarProximoIngreso()
         {
             int tiempoEspera = 0;
-            //Alumno:
-
+            
             while (this.OnDemora is not null && this.menu.Estado == false && !this.cancellation.IsCancellationRequested)
             {
                 tiempoEspera++;

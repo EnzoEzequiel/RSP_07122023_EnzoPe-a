@@ -27,7 +27,7 @@ namespace MisTest
         public void AlInstanciarUnCocinero_SeEspera_PedidosCero()
         {
             //arrange
-            string nombreCocinero = "John";
+            string nombreCocinero = "Pedrito";
             Cocinero<Hamburguesa> cocinero = new Cocinero<Hamburguesa>(nombreCocinero);
 
             //act
