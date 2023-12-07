@@ -53,7 +53,7 @@ namespace Entidades.DataBase
             }
             catch (Exception ex)
             {
-                throw new DataBaseManagerException("Errror al leer la base de dato\n", ex);
+                throw new DataBaseManagerException("Error al leer la base de dato\n", ex);
             }
         }
         /// <summary>
