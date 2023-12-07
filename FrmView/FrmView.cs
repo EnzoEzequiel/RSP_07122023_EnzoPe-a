@@ -55,11 +55,6 @@ namespace FrmView
             }
         }
 
-        private void ActualizarAtendidos(IComestible comida)
-        {
-            this.rchFinalizados.Text += "\n" + comida.Ticket;
-        }
-
         /// <summary>
         /// 
         /// </summary>
@@ -77,17 +72,17 @@ namespace FrmView
                 this.hamburguesero.HabilitarCocina = false;
                 this.btnAbrir.Image = Properties.Resources.open_icon;
             }
-
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            if (this.comidas.Count > 0)
+            if (this.comidas != null)
             {
-
                 IComestible comida = this.comidas.Dequeue();
+                this.rchFinalizados.Text += "\n" + comida.Ticket;
+                this.comidas = null;
                 comida.FinalizarPreparacion(this.hamburguesero.Nombre);
-                this.ActualizarAtendidos(comida);
+                
             }
             else
             {
